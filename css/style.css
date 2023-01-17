@@ -1,0 +1,237 @@
+/*font-family: 'Amatic SC', cursive;
+font-family: 'La Belle Aurore', cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*backgraud*/
+body{
+
+    background-image: url("../assets/backgraund.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+/*header*/
+.header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+    box-sizing: border-box;
+    border-bottom: 100px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+.header .logo img{
+    height: 50px;
+}
+
+.header nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/*boton especial ofertas*/
+.btn2{
+    width: 150px;
+    background-color:blueviolet;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding:  6px;
+    
+}
+/*footer*/
+.footer{
+
+    display: flex;
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    background-color: rgb(0,0,0,0.1);
+    flex-direction: row;
+    justify-content: space-between;    
+    border-top: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.footer ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+/*fin generales*/
+
+/*index*/
+.main__index{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+
+}
+.main__container{
+
+    width: 500px;
+    margin: 10px;
+}
+.main__container img{
+    width: 100%;
+}
+.main__container p{
+    text-align: center;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-family: 'La Belle Aurore', cursive;}
+.main__container .container__btns {
+    display: flex;
+    justify-content: center;
+}
+.main__container a{
+    width: 600px;
+    background-color: rgb(25, 14, 34);
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    border:2px;
+    padding:  6px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+/*productos*/
+.productos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.productos__card{
+    width: 300px;
+    margin: 10px;
+    background-color: rgb(0,0,0,0.1);
+    border-radius: 15px;
+}
+.card__imgs img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.card__bodys h2{
+    text-align: center;
+}
+.card__bodys p{
+    text-align: center;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-family: 'La Belle Aurore', cursive;
+}
+.card__btns {
+display: flex;
+justify-content: center;
+}
+.card__btns a{
+    width: 150px;
+    background-color: rgb(25, 14, 34);
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    border:2px;
+    padding:  6px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+/*titulo 2 mas vendidos*/
+.mas__vendidos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/*****/
+
+/*pages*/
+.titles1{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    border-bottom: 2px solid;
+    border-color: blueviolet;
+}
+.titles2{
+
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.titles2 h2 {
+    width: 150px;
+    text-align: center;
+    border: 2px solid;
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding:  6px;
+}
+/*como comprar*/
+.mapa{
+    
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+/*contacto*/
+.main__contacto{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main__contacto iframe{
+    justify-content: center;
+}
+.section_contacto{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section_contacto li a{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+
+
