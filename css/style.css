@@ -6,150 +6,62 @@ font-family: 'La Belle Aurore', cursive;
     padding: 0;
 
 }
-
-a{
-    text-decoration: none;
-    color: black;
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
 
 
 /*backgraud*/
 body{
 
     background-image: url("../assets/backgraund.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
     font-family: 'Amatic SC', cursive;
     
 }
 
-/*header*/
-.nav-custom {
-    background-color: rgb(0,0,0,0.1);
-    border-bottom: 1px;
-    border-color:  rgba(0, 0, 0, 0.2);;
+
+/*main*/
+.img__logo{
+    width: 50%
 }
 
-/*boton especial ofertas*/
-.btn2{
-    width: 150px;
-    background-color:blueviolet;
-    text-align: center;
-    color: white;
-    border-radius: 10px;
-    padding:  7px;
-    
-}
-/*footer*/
-.footer{
-
-    display: flex;
-    width: 100%;
-    height: 75px;
-    padding: 10px;
-    background-color: rgb(0,0,0,0.1);
-    flex-direction: row;
-    justify-content: space-between;    
-    border-top: 1px solid;
-    border-color: rgba(0, 0, 0, 0.2);
-
-}
-
-.footer ul li{
-    list-style: none;
-    margin-right: 30px;
-}
-
-/*fin generales*/
-
-/*index*/
-.main__index{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 150px;
-
-}
-.main__container{
-
-    width: 500px;
-    margin: 10px;
-}
-.main__container img{
-    width: 100%;
-}
-.main__container p{
-    text-align: center;
-    padding-left: 5px;
-    margin-bottom: 10px;
-    font-family: 'La Belle Aurore', cursive;}
-.main__container .container__btns {
-    display: flex;
-    justify-content: center;
-}
-.main__container a{
-    width: 600px;
-    background-color: rgb(25, 14, 34);
-    text-align: center;
-    color: white;
-    border-radius: 15px;
-    border:2px;
-    padding:  6px;
-    font-size: 17px;
-    margin-bottom: 10px;
-}
 /*productos*/
-.productos{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.productos__card{
-    width: 300px;
-    margin: 10px;
-    background-color: rgb(0,0,0,0.1);
-    border-radius: 15px;
-}
-.card__imgs img{
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-}
-.card__bodys h2{
-    text-align: center;
-}
-.card__bodys p{
+
+.letter__custom{
     text-align: center;
     padding-left: 5px;
     margin-bottom: 10px;
     font-family: 'La Belle Aurore', cursive;
 }
-.card__btns {
-display: flex;
-justify-content: center;
-}
-.card__btns a{
-    width: 150px;
+.btn__custom {
+    width: 10rem;
     background-color: rgb(25, 14, 34);
     text-align: center;
-    color: white;
     border-radius: 15px;
     border:2px;
-    padding:  6px;
     font-size: 17px;
-    margin-bottom: 10px;
+
 }
-/*titulo 2 mas vendidos*/
-.mas__vendidos{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+/*retoque de cards*/
+
+.card__custom{
+    background-color: rgb(0,0,0,0.1);
+}
+
+.card {
+    margin-top: 20px;
+}
+
+/*footer*/
+.footer{
+    padding-top: 20px;
 }
 
 
 
-/*****/
 
 /*pages*/
 .titles1{
